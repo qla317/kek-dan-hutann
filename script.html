@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kek & Hutan Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.styles/style.css">
+</head>
+<body>
+
+<script>
+// JS slider 3 kotak
+const track = document.querySelector('.slider-track');
+const cards = document.querySelectorAll('.card');
+
+let index = 0;
+const cardsToShow = 3;
+const totalCards = cards.length;
+
+function updateSlider() {
+    const moveX = (100 / cardsToShow) * index;
+    track.style.transform = 'translateX(-' + moveX + '%)';
+}
+
+document.querySelector('.next').addEventListener('click', function () {
+    if (index < totalCards - cardsToShow) {
+        index++;
+        updateSlider();
+    }
+});
+
+document.querySelector('.prev').addEventListener('click', function () {
+    if (index > 0) {
+        index--;
+        updateSlider();
+    }
+});
+
+setInterval(function () {
+    if (index < totalCards - cardsToShow) {
+        index++;
+    } else {
+        index = 0;
+    }
+    updateSlider();
+}, 4000);
+</script>
+
+</body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+    <!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Kek & Hutan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Kek & Hutan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CONTENT WEBSITE AWAK -->
+<section class="feedback">
+    <!-- slide feedback kat sini -->
+</section>
+
+

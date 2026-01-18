@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kek & Hutan Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.styles/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo-container">
+      <img src="logo.png" alt="Kek & Hutan Logo" class="logo-img">
+      <div class="logo-text">Kek & Hutan Café</div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tentang.html">Menu</a>
+      <a href="latestnew.html">News</a>
+      <a href="hubungi.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== VIDEO BESAR ===== -->
+    <section class="hero hero-index">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="ckeee.mp4" type="video/mp4">
+      </video>
+
+      <div class="hero-content">
+        <h1>WELCOME TO KEK & HUTAN CAFE</h1>
+        <p>
+          Experience a taste of tradition with our secret recipe of Authentic<br>
+          Kek Lapis Sarawak
+        </p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+
+
+
+    <!-- BAHAGIAN HOME -->
+    <section id="home">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <h1>About Us <br><span style="color:var(--light-green)">Kek dan Hutan</span></h1>
+                <p>Welcome to <strong>Kek Dan Hutan</strong>. 
+
+Kek & Hutan is a delightful spot located in Kota Bharu, Malaysia, known for its authentic Sarawak cuisine. The menu features a variety of dishes, including Laksa Sarawak and Mee Kolok, which are highly praised for their flavors. The cafe also offers a selection of layered cakes, particularly popular for their sweetness and texture. Overall, Kek & Hutan is a must-visit for anyone looking to experience traditional Malaysian flavors in a cozy atmosphere.</p>
+                <a href="#menu" class="btn btn-primary">Best menu</a>
+            </div>
+            <div class="hero-image">
+                <img src="owner.jpg" alt="Delicious Green Forest Cake">
+            </div>
+        </div>
+    </section>
+
+    <!-- BAHAGIAN MENU -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Best Menu</h2>
+            <p class="section-subtitle">Freshly baked with love</p>
+            <div class="menu-grid">
+                <!-- Cake 1 -->
+                <article class="cake-card">
+                    <div class="cake-image">
+                        <img src="ch.jpeg" alt="Matcha Forest">
+                    </div>
+                    <div class="cake-info">
+                        <h3>Hitam Manis</h3>
+                        <p class="cake-desc">Deep dark chocolate in every bite.</p>
+                        <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- Cake 2 -->
+                <article class="cake-card">
+                    <div class="cake-image">
+                        <img src="st.jpeg" alt="Berry Delight">
+                    </div>
+                    <div class="cake-info">
+                        <h3>Strawberry Cheese</h3>
+                        <p class="cake-desc">Sweet,creamy and just the rigt touch of strawberry dreams.</p>
+                        <div class="cake-footer">
+                            <span class="price">RM 3.50</span>
+                            <button class="add-btn" onclick="addToCart('Berry Woodland')">+</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- Cake 3 -->
+                <article class="cake-card">
+                    <div class="cake-image">
+                        <img src="cempedak.jpg" alt="Chocolate Truffle">
+                    </div>
+                    <div class="cake-info">
+                        <h3>Golden Cempedak</h3>
+                        <p class="cake-desc">A rich and aromatic layered cake infused with distinctive sweetness of ripe cempedak.</p>
+                        <div class="cake-footer">
+                            <span class="price">RM 3.90</span>
+                            <button class="add-btn" onclick="addToCart('Deep Earth Truffle')">+</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+
+<section class="sold-section">
+  <h2>Sold Out Items</h2>
+            <div class="menu-grid">
+  <div class="sold-wrapper">
+    <div class="sold-card">
+      <img src="sttt.jpeg" alt="Cake 1">
+    </div>
+    <div class="sold-card">
+      <img src="stt.jpeg" alt="Cake 2">
+    </div>
+    <div class="sold-card">
+      <img src="wwwuuw.jpeg" alt="Cake 3">
+    </div>
+  </div>
+</section>
+
+<!-- Latest News Section -->
+    <section id="news">
+        <div class="container">
+            <h2 class="section-title">FEEDBACK CUSTOMER</h2>
+            <p class="section-subtitle">Real Experience,Real Feedback</p>
+            <div class="news-container">
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<title>Slider Kotak Besar</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    position: relative;
+    width: 90%;
+    max-width: 1200px; /* lebih lebar */
+    margin: 50px auto;
+    overflow: hidden;
+    background: #fff3e6;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card {
+    min-width: 33.333%; /* 3 kotak nampak serentak */
+    margin: 0 10px;      /* jarak antara kotak */
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px; /* lebih besar */
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card p {
+    font-size: 18px; /* teks lebih jelas */
+    margin: 15px 0 10px;
+    font-style: italic;
+}
+
+.card span {
+    font-weight: bold;
+    color: #8b5e3c;
+    font-size: 16px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 45%;
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    font-size: 32px; /* lebih besar */
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.prev:hover, .next:hover {
+    opacity: 1;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }
+
+@media (max-width: 1024px) {
+    .card { min-width: 50%; } /* tablet: 2 kotak */
+}
+
+@media (max-width: 768px) {
+    .card { min-width: 100%; margin: 0; } /* mobile: 1 kotak */
+}
+</style>
+</head>
+<body>
+
+
+<div class="slider">
+    <div class="slider-track">
+        <div class="card"><img src="arissa.jpeg" alt=""><p>“Hampir order semua,rambang mata betul!”</p><span>- Arissa,Ganu</span></div>
+        <div class="card"><img src="daus.jpeg" alt=""><p>“Balik daripada Sabah terus datang sini,craving teruk”</p><span>- Aus Askar</span></div>
+        <div class="card"><img src="nina.jpeg" alt=""><p>“Harga Murah love gituww!”</p><span>- Nina,Pulau Pinang</span></div>
+        <div class="card"><img src="qela.jpeg" alt=""><p>“Mee Kolok sedap dooh wey!”</p><span>- Aqela,Johor</span></div>
+        <div class="card"><img src="AA.jpeg" alt=""><p>“Wife Tanah Merah,suka datang makan kek dekat sini”</p><span>- Awalin,Maran</span></div>
+        <div class="card"><img src="AAA.jpeg" alt=""><p>"Tak sia sia datang sini dengan ex daripada Unisza",</p><span>-Azim,UNISZA </span> </div>
+        <div class="card"><img src="iz.jpeg" alt=""><p>“Servis laju,makanan sedap akan repeat,gf suka”</p><span>-Izzham,Kemaman</span></div>
+    </div>
+    <button class="prev">‹</button>
+    <button class="next">›</button>
+</div>
+
+<script>
+// JS slider 3 kotak
+const track = document.querySelector('.slider-track');
+const cards = document.querySelectorAll('.card');
+
+let index = 0;
+const cardsToShow = 3;
+const totalCards = cards.length;
+
+function updateSlider() {
+    const moveX = (100 / cardsToShow) * index;
+    track.style.transform = 'translateX(-' + moveX + '%)';
+}
+
+document.querySelector('.next').addEventListener('click', function () {
+    if (index < totalCards - cardsToShow) {
+        index++;
+        updateSlider();
+    }
+});
+
+document.querySelector('.prev').addEventListener('click', function () {
+    if (index > 0) {
+        index--;
+        updateSlider();
+    }
+});
+
+setInterval(function () {
+    if (index < totalCards - cardsToShow) {
+        index++;
+    } else {
+        index = 0;
+    }
+    updateSlider();
+}, 4000);
+</script>
+
+</body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+    <!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Kek & Hutan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Kek & Hutan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CONTENT WEBSITE AWAK -->
+<section class="feedback">
+    <!-- slide feedback kat sini -->
+</section>
+
+
+</main>
+
+
+<footer>
+  &copy; 2025 Kek & Hutan Café | All Rights Reserved
+</footer>
+
+</body>
+</html>

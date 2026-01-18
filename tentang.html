@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Kek & Hutan Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.styles/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <img src="logo.png" alt="Kek & Hutan Logo" class="logo-img">
+    <div class="logo-text">Kek & Hutan Café</div>
+  </div>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="tentang.html">Menu</a>
+    <a href="latestnew.html">News</a>
+    <a href="hubungi.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="vd.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Forest-Inspired Cakes & Café</h1>
+      <p>Experience a taste of tradition with our secret recipe of Authentic Kek Lapis Sarawak</p>
+      <a href="index.html" class="btn">More Information</a>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Layered Cake</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="blue.jpg" alt="Chocolate Forest Cake">
+        <h3>Kek Lapis Blue Layer</h3>
+        <p>Rich chocolate layered with forest-inspired colors. Each bite melts in your mouth, giving a perfect balance of chocolate and creamy layers..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="choc.jpg" alt="Matcha Latte">
+        <h3>Kek Lapis Chocolate Chip</h3>
+        <p>Soft, buttery cake with chocolate bits. Cozy and sweet — ideal for chocolate lovers looking for a gentle forest vibe..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="dyno.jpg" alt="Honey Cheesecake">
+        <h3>Kek Lapis Choco Dyno</h3>
+        <p>Decadent chocolate and cheesecake layers drizzled with natural honey. A treat that’s both playful and luxurious..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="lumut.jpg" alt="Berry Tart">
+        <h3>Kek Lapis Lumut Cheese</h3>
+        <p>Green-hued layers infused with cheese flavor, offering a fresh and earthy taste reminiscent of a mossy forest floor..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="pop.jpg" alt="Latte Coffee">
+        <h3>Kek Lapis Paddle Pop</h3>
+        <p>Vibrant rainbow layers with a soft, creamy texture. Sweet, fun, and perfect for a colorful indulgence..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="red.jpg" alt="Latte Coffee">
+        <h3>Kek Lapis Red Velvet</h3>
+        <p>Classic red velvet with creamy layers, smooth and rich. A timeless favorite with a modern forest twist..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="san.jpg" alt="Latte Coffee">
+        <h3>Kek Lapis San Sebastian</h3>
+        <p>Velvety cheesecake-inspired layers with subtle caramel notes. Light, elegant, and comforting in every bite.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="gula.jpg" alt="Latte Coffee">
+        <h3>Kek Lapis Gula Apong</h3>
+        <p>Layers infused with traditional palm sugar, offering a deep, caramel-like flavor with a hint of forest sweetness..</p>
+         <div class="cake-footer">
+                            <span class="price">RM 4.20</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!--MAKANAN-->
+<main>
+  <section class="section" id="menu">
+    <h2>Our Best Dishes</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="daging.jpg" alt="Chocolate Forest Cake">
+        <h3>Nasi Daging Masak Hitam</h3>
+        <p>Fragrant rice served with tender beef cooked in a rich, dark, sweet-savory sauce.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 18.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="mee.jpg" alt="Matcha Latte">
+        <h3>Mee Kolok Sarawak</a></h3>
+        <p>Springy Sarawak-style noodles tossed with a light, flavorful sauce.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 15.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="goreng.jpg" alt= "Cheesecake">
+        <h3>Mee Kolok Goreng</h3>
+        <p>Stir-fried Sarawak-style noodles with vegetables and choice of protein, savory and satisfying.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 14.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="nasi.jpg" alt="Berry Tart">
+        <h3>Nasi Ayam Penyet</h3>
+        <p>Crispy fried chicken served with steamed rice, sambal chili, and fresh vegetables.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 13.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="nasiiiiiiiii.jpeg" alt="Berry Tart">
+        <h3>Nasi goreng Kek Hutan</h3>
+        <p>The only one, with ikan terubuk,keropok moni and telur mata.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 14.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="nasi ayam.jpeg" alt="Berry Tart">
+        <h3>Nasi Lemak with Chicken Tenders</h3>
+        <p>A classic with a twist Nasi Lemak paired with crispy rempah chicken tenders.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 18.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="laksa.jpeg" alt="Berry Tart">
+        <h3>Laksa Sarawak</h3>
+        <p>Our Sarawak laksa, full of spice and love with every bowl.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 14.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="meetball.jpeg" alt="Berry Tart">
+        <h3>Sweedish Meetball</h3>
+        <p>“Classic Swedish meatballs served with rich gravy and a side of comfort.”.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 18.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!--MINUMAN-->
+<main>
+  <section class="section" id="menu">
+    <h2>Our Best Beverages</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="ll.jpg" alt="Chocolate Forest Cake">
+        <h3>Blue Ternate Lychee Soda</h3>
+        <p>Fragrant rice served ith tender beef cooked in a rich, dark, sweet-savory sauce.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 9.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="w.jpg" alt="Matcha Latte">
+        <h3>Melon Breeze Mojito</a></h3>
+        <p>Springy Sarawak-style noodles tossed with a light, flavorful sauce.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 9.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="p.jpg" alt= "Cheesecake">
+        <h3>Tropical Passion FIZZ</h3>
+        <p>Stir-fried Sarawak-style noodles with vegetables and choice of protein, savory and satisfying.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 11.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="ww.jpg" alt="Berry Tart">
+        <h3>Apple Wood Sparkle</h3>
+        <p>Crispy fried chicken served with steamed rice, sambal chili, and fresh vegetables.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 9.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="choc indulgence.jpeg" alt="Berry Tart">
+        <h3>Chocolate Indulgence</h3>
+        <p>Rich and creamy chocolate treats made to give you a sweet and satisfying experience.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 12.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="matchaa.jpeg" alt="Berry Tart">
+        <h3>Original Matcha</h3>
+        <p>Smooth and healthy matcha treats that are refreshing and full of flavor.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 11.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="latte tiramisu.jpeg" alt="Berry Tart">
+        <h3>Latte tiramisu</h3>
+        <p>Creamy latte tiramisu with a perfect blend of coffee and sweet flavors.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 11.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+      <div class="card">
+        <img src="midori.jpeg" alt="Berry Tart">
+        <h3>Midori Latte</h3>
+        <p>Smooth and colorful Midori Latte with a sweet, melon-flavored twist.</p>
+         <div class="cake-footer">
+                            <span class="price">RM 14.00</span>
+                            <button class="add-btn" onclick="addToCart('Matcha Moss')">+</button>
+                        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  &copy; 2025 Kek & Hutan Café | All Rights Reserved
+</footer>
+
+</body>
+</html>
